@@ -1,3 +1,20 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
 body{
   overflow-x: hidden;
+}
+
+@media screen and (min-width:1px) and (max-width:768px){
+  .mobile_bg{
+    background-color: white !important;
+  }
 }

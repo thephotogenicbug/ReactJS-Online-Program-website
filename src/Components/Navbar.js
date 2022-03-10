@@ -9,7 +9,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const NavbarOne = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
     <>
@@ -66,4 +66,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarOne;

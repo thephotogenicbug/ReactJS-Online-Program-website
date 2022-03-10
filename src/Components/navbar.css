@@ -164,10 +164,90 @@ li {
   }
 }
 
-/* responsive css style  */
-@media (max-width: 998px) {
-  .main-nav {
+@media screen and (min-width: 1px) and (max-width:430px) {
+  .main-nav{
+     height: 70px;
+  }
+   .menu-link {
+    display: none;
+  }
+
+  .logo,
+  .social-media ul {
     height: 7rem;
+  }
+
+  .mobile-menu-link {
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile-menu-link {
+    background-color: white;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .mobile-menu-link ul {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+  .menu-link ul li a {
+  text-transform: capitalize;
+  color: #333;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+  .mobile-menu-link ul li:first-child {
+    transition-delay: 0.2s;
+  }
+
+  .social-media {
+    grid-row: 1/2;
+    grid-column: 3/5;
+    justify-items: end;
+    align-items: center;
+    transition: all 2s linear;
+  }
+
+  .social-media .social-media-desktop {
+    height: 0;
+    display: none;
+  }
+
+  .social-media {
+    height: 7rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+
+  .social-media .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .hamburger-menu{
+    display: none;
+  }
+}
+
+/* responsive css style  */
+@media screen and (min-width: 431px) and (max-width:768px) {
+  .main-nav {
+    height: 10rem;
+    width: 100%;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
   }
 
@@ -243,7 +323,7 @@ li {
   }
 }
 
-@media (max-width: 798px) {
+/* @media (max-width: 798px) {
   .main-nav {
     height: 6rem;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
@@ -294,9 +374,9 @@ li {
     font-size: 2.5rem;
   }
 
-  /* hero section  */
+ 
 
   .hero-section h1 {
     font-size: 3.8rem;
   }
-}
+} */
