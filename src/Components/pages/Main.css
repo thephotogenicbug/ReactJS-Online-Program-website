@@ -165,7 +165,7 @@
 }
 
 .card_wrapper {
-  height: 250px;  
+  height: 270px;  
   border-radius: 10px;
   transition: all 0.5s ease-in-out;
   margin: 2%;
@@ -180,7 +180,7 @@
 .card_title {
   position: relative;
   top: 10px;
-  font-size: 20px;
+  font-size: 19px;
   text-transform: uppercase;
 }
 .card_subtitle {
@@ -193,7 +193,7 @@
   color: #ffffff;
   height: 50px;
   width: 170px;
-  font-size: 20px;
+  font-size: 16px;
   border-style: none;
   margin-top: 20px;
   margin-bottom: 20px;
