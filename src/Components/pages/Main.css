@@ -82,9 +82,9 @@
 .card_button {
   background-color: #a82010;
   color: #ffffff;
-  height: 50px;
-  width: 170px;
-  font-size: 20px;
+  height: 40px;
+  width: 130px;
+  font-size: 16px;
   border-style: none;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -94,7 +94,7 @@
 
 .contact_section {
   background-image: url("./images/contact_desktop_banner.png");
-  height: 650px;
+  height: 550px;
 }
 .contact_form_title {
   margin-top: 50px;
@@ -189,10 +189,10 @@
   top: 10px;
 }
 .card_button {
-  background-color: #a82010;
+ background-color: #a82010;
   color: #ffffff;
-  height: 50px;
-  width: 170px;
+  height: 40px;
+  width: 130px;
   font-size: 16px;
   border-style: none;
   margin-top: 20px;
