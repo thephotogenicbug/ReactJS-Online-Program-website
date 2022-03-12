@@ -9,9 +9,7 @@
   font-family: 'Fredoka', sans-serif;
 }
 
-body{
-  overflow-x: hidden;
-}
+
 
 @media screen and (min-width:1px) and (max-width:768px){
   .mobile_bg{

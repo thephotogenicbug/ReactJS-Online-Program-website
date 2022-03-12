@@ -8,7 +8,7 @@ const Contact = () => {
           {/* <div className="col-md-4"></div> */}
           <div className="col-md-4"></div>
           <div className="col-md-4">
-            <h4 className="contact_form_title">GET IN TOUCH WITH US</h4>
+            <h4 className=" form_title">GET IN TOUCH WITH US</h4>
           </div>
         </div>
         <div className="row">

@@ -96,12 +96,11 @@
   background-image: url("./images/contact_desktop_banner.png");
   height: 550px;
 }
-.contact_form_title {
-  margin-top: 50px;
-  font-size: 30px;
+.form_title{
   color: #ffffff;
-  position: relative;
-  left: 190px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
 }
 .contact_form_label {
   color: #ffffff;
@@ -226,11 +225,5 @@
   background-image: url("./images/contact_mobile_banner.png");
   height: 880px;
 }
-.contact_form_title {
-  margin-top:120px;
-  font-size: 21px;
-  color: #ffffff;
-  position: relative;
-  left: 100px;
-}
+
 }
