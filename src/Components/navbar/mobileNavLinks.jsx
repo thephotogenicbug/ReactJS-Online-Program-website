@@ -14,13 +14,13 @@ const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
-  height: 100%;
+  height:max-content;
   list-style: none;
   background-color: #fff;
   width: 100%;
   flex-direction: column;
   position: fixed;
-  top: 65px;
+  top: 50px;
   left: 0;
   z-index: 10000;
 `;
@@ -55,19 +55,16 @@ export function MobileNavLinks(props) {
       {isOpen && (
         <LinksWrapper>
           <LinkItem>
-            <Link href="#">About us</Link>
+            <Link href="#">HOME</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">How it works</Link>
+            <Link href="#">PROGRAMS</Link>
           </LinkItem>
           <LinkItem>
-            <Link href="#">Explore</Link>
-          </LinkItem>
-          <LinkItem>
-            <Link href="#">Impact</Link>
+            <Link href="#">ABOUT US</Link>
           </LinkItem>
           <Marginer />
-          <Accessibility />
+          {/* <Accessibility /> */}
         </LinksWrapper>
       )}
     </NavLinksContainer>

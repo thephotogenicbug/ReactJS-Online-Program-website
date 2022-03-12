@@ -19,13 +19,13 @@ const Contact = () => {
               <div className="col-md-6">
                 <div className="form-group">
                   <label className="contact_form_label">FullName</label>
-                  <input type="text" className="form-control  p-3" />
+                  <input type="text" className="form-control" />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="form-group">
                   <label className="contact_form_label">Mobile No</label>
-                  <input type="text" className="form-control p-3" />
+                  <input type="text" className="form-control" />
                 </div>
               </div>
             </div>
@@ -34,13 +34,13 @@ const Contact = () => {
               <div className="col-md-6">
                 <div className="form-group">
                   <label className="contact_form_labeltwo">Email ID</label>
-                  <input type="text" className="form-control  p-3" />
+                  <input type="text" className="form-control" />
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="form-group">
                   <label className="contact_form_labeltwo">Country</label>
-                  <input type="text" className="form-control  p-3" />
+                  <input type="text" className="form-control" />
                 </div>
               </div>
             </div>
@@ -49,13 +49,13 @@ const Contact = () => {
               <div className="col-md-6">
                 <div className="form-group">
                   <label className="contact_form_labeltwo">State</label>
-                  <input type="text" className="form-control  p-3" />
+                  <input type="text" className="form-control" />
                 </div>
               </div>
               <div className="col-md-6 ">
                 <div className="form-group">
                   <label className="contact_form_labeltwo">Location</label>
-                  <input type="text" className="form-control  p-3" />
+                  <input type="text" className="form-control" />
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                 <div className="form-group">
                   <label className="contact_form_labelthree"></label>
                   <select
-                    className="form-control p-3 mt-3"
+                    className="form-control mt-3"
                     style={{ fontSize: "14px" }}
                   >
                     <option>Choose Course</option>

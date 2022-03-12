@@ -24,7 +24,6 @@ const LinkItem = styled.li`
   align-items: center;
   justify-content: center;
   display: flex;
-  background: white;
   border-top: 2px solid transparent;
   transition: all 220ms ease-in-out;
   &:hover {
@@ -51,9 +50,6 @@ export function NavLinks(props) {
         <LinkItem>
           <Link href="#">ABOUT US</Link>
         </LinkItem>
-        {/* <LinkItem>
-          <Link href="#">Impact</Link>
-        </LinkItem> */}
       </LinksWrapper>
     </NavLinksContainer>
   );

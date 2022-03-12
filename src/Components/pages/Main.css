@@ -120,9 +120,10 @@
 
 .contact_form_submit_button {
   margin-top: 40px;
-  height: 47px;
+  height: 40px;
   width: 150px;
   border-style: none;
+  border-radius: 5px;
   background-color: #a82010;
   color: #ffffff;
   font-size: 20px;
@@ -130,15 +131,15 @@
 
 @media screen and (min-width: 1px) and (max-width: 768px) {
   .banner_section {
-    background-image: url("./images/banner_mobile_section.jpg");
+    background-image: url("./images/service_mobile_banner.png");
     background-position: center;
     background-size: 100%;
-    height: 600px;
+    height: 700px;
     position: relative;
     background-repeat: no-repeat;
   }
   .heading_title {
-    margin-top: 300px;
+    margin-top: 400px;
     color: #ffffff;
   }
   .heading_subtitle {
@@ -158,10 +159,15 @@
   background-image: url("./images/service_mobile_banner.png");
   background-position: center;
   background-size: 100%;
-  height: 800px;
+  height: 600px;
   backdrop-filter: blur(10px) saturate(125%);
   -webkit-backdrop-filter: blur(10px) saturate(125%);
   background-repeat: no-repeat;
+}
+.section_title {
+  font-size: 30px;
+  color: #a82010;
+  margin-top: 10px;
 }
 
 .card_wrapper {
@@ -201,11 +207,6 @@
   font-weight: 300;
 }
 
-/* .contact_section {
-  display: none;
-  background-image: url("./images/contact_desktop_banner.png");
-  height: 650px;
-} */
 .mobile_scroll{
    position: relative;
    height: 600px;
@@ -226,7 +227,7 @@
   height: 880px;
 }
 .contact_form_title {
-  margin-top: 50px;
+  margin-top:120px;
   font-size: 21px;
   color: #ffffff;
   position: relative;
