@@ -40,7 +40,7 @@ const Main = () => {
                 <span style={{ color: "#A82010" }}>DIGITAL MARKETING</span> AND{" "}
                 <br /> <span style={{ color: "#A82010" }}>WEB DEVELOPMENT</span>
               </h1>
-              <Link to="/applicationform">
+              <Link to="/applicationform.html">
                 <button className="heading_button">APPLY NOW</button>
               </Link>
             </div>
