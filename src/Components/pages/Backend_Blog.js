@@ -6,13 +6,51 @@ const BackendBlog = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Backend Web Development Training in Bangalore</title>
-        <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
+        <title>Backend Web Development Training In Bangalore</title>
+        <link
+          rel="canonical"
+          href="https://onlineskills-eduprov.vercel.app/backend.html"
+        />
+        <meta
+          name="title"
+          content="Backend Web Development Training In Bangalore"
+        />
         <meta
           name="description"
-          content="Backend Web Development Training in Bangalore"
+          content="Backend Development is also known as server-side development. It is everything that the users don’t see and contains behind-the-scenes activities that occur when performing any action on a website. It focuses primarily on databases, backend logic, APIs, and Servers."
         />
+
         <meta name="keyword" content="Digital Marketing, Web Development" />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://onlineskills-eduprov.vercel.app/backend.html"
+        />
+        <meta
+          property="og:title"
+          content="Backend Web Development Training In Bangalore"
+        />
+        <meta
+          property="og:description"
+          content="Digital Marketing and Web Development Training In Bangalore"
+        />
+        <meta property="og:image" content="#" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://onlineskills-eduprov.vercel.app/backend.html"
+        />
+        <meta
+          property="twitter:title"
+          content="Backend Web Development Training In Bangalore"
+        />
+        <meta
+          property="twitter:description"
+          content="Backend Development is also known as server-side development. It is everything that the users don’t see and contains behind-the-scenes activities that occur when performing any action on a website. It focuses primarily on databases, backend logic, APIs, and Servers."
+        />
+        <meta property="twitter:image" content="" />
       </Helmet>
       <div className="backend_banner">
         <div className="container">

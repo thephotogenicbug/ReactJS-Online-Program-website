@@ -4,6 +4,7 @@ import Footer from './Footer';
 import './Main.css'
 import Services from './Services';
 import { Helmet } from "react-helmet";
+import { Link } from 'react-router-dom';
 const Main = () => {
   return (
     <>
@@ -13,11 +14,22 @@ const Main = () => {
           Digital Marketing and Web Development Training In Bangalore
         </title>
         <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
-        <meta
-          name="description"
-          content="Digital Marketing and Web Development Training In Bangalore"
-        />
+        <meta name="title" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta name="description" content="Digital Marketing and Web Development Training In Bangalore" />
+
         <meta name="keyword" content="Digital Marketing, Web Development" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://onlineskills-eduprov.vercel.app/" />
+        <meta property="og:title" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta property="og:description" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta property="og:image" content="#" />
+        
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://onlineskills-eduprov.vercel.app/" />
+        <meta property="twitter:title" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta property="twitter:description" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta property="twitter:image" content="" />
       </Helmet>
       <div className="section banner_section">
         <div className="container">
@@ -28,7 +40,9 @@ const Main = () => {
                 <span style={{ color: "#A82010" }}>DIGITAL MARKETING</span> AND{" "}
                 <br /> <span style={{ color: "#A82010" }}>WEB DEVELOPMENT</span>
               </h1>
-              <button className="heading_button">APPLY NOW</button>
+              <Link to="/applicationform">
+                <button className="heading_button">APPLY NOW</button>
+              </Link>
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ const Services = () => {
                     development is the practice of producing HTML, CSS and
                     JavaScript
                   </p>
-                  <Link to="/frontend">
+                  <Link to="/frontend.html">
                     <button className="card_button">LEARN MORE</button>
                   </Link>
                 </div>
@@ -60,7 +60,7 @@ const Services = () => {
                     development.It is everything that the users don’t see and
                     contains behind-the-scenes
                   </p>
-                  <Link to="/backend">
+                  <Link to="/backend.html">
                     <button className="card_button">LEARN MORE</button>
                   </Link>
                 </div>

@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Main />} />
-        <Route exact path="/frontend" element={<FrontendBlog />} />
-        <Route exact path="/backend" element={<BackendBlog />} />
-        <Route exact path="/applicationform" element={<ContactForm />} />
+        <Route exact path="/frontend.html" element={<FrontendBlog />} />
+        <Route exact path="/backend.html" element={<BackendBlog />} />
+        <Route exact path="/applicationform.html" element={<ContactForm />} />
       </Routes>
     </Router>
   );

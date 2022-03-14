@@ -57,7 +57,10 @@ export function NavLinks(props) {
             <Link>ABOUT US</Link>
           </LinkItem>
         </RouterLinks>
-        <RouterLinks to="/applicationform" style={{ textDecoration: "none" }}>
+        <RouterLinks
+          to="/applicationform.html"
+          style={{ textDecoration: "none" }}
+        >
           <LinkItem>
             <Link>APPLICATION FORM</Link>
           </LinkItem>

@@ -67,10 +67,10 @@ export function MobileNavLinks(props) {
           </Links>
           <Links to="/" style={{ textDecoration: "none" }}>
             <LinkItem>
-              <Link >ABOUT US</Link>
+              <Link>ABOUT US</Link>
             </LinkItem>
           </Links>
-          <Links to="/applicationform" style={{ textDecoration: "none" }}>
+          <Links to="/applicationform.html" style={{ textDecoration: "none" }}>
             <LinkItem>
               <Link>APPLICATION FORM</Link>
             </LinkItem>

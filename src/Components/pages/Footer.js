@@ -21,7 +21,6 @@ const Footer = () => {
             <h3>OTHER</h3>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>
-            <a href="#">Cookie Policy</a>
           </section>
           <section>
             <h3>ANY QUESTIONS?</h3>
