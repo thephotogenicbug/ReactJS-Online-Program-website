@@ -29,7 +29,7 @@ export function Logo(props) {
       <LogoImg>
         <img
           src="https://eduprov.com/images/eduprov_logo_color.png"
-          alt="Greenland logo"
+          alt="Eduprov logo"
           className="Logo"
         />
       </LogoImg>
