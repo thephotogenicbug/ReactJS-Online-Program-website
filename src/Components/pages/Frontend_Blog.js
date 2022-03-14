@@ -1,9 +1,19 @@
 import React from "react";
 import Footer from "./Footer";
-
+import { Helmet } from "react-helmet";
 const FrontendBlog = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Frontend Web Development Training in Bangalore</title>
+        <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
+        <meta
+          name="description"
+          content="Frontend Web Development Training in Bangalore"
+        />
+        <meta name="keyword" content="Digital Marketing, Web Development" />
+      </Helmet>
       <div className="backend_banner">
         <div className="container">
           <div className="row">

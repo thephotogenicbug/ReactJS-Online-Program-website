@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
-// import { Logo } from "../logo";
+import { Logo } from "../logo";
 import { Accessibility } from "./accessibility";
 import { NavLinks } from "./navLinks";
 import { DeviceSize } from "../responsive";
@@ -43,7 +43,7 @@ export function Navbar(props) {
 
   return (
     <NavbarContainer className="mobile_bg">
-      <LeftSection>{/* <Logo /> */}</LeftSection>
+      <LeftSection><Logo /></LeftSection>
       <MiddleSection>{!isMobile && <NavLinks />}</MiddleSection>
       <RightSection>
         {/* {!isMobile && <Accessibility />} */}

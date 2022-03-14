@@ -1,14 +1,24 @@
 import React from 'react'
 import Footer from './Footer';
-
+import { Helmet } from "react-helmet";
 const BackendBlog = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Backend Web Development Training in Bangalore</title>
+        <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
+        <meta
+          name="description"
+          content="Backend Web Development Training in Bangalore"
+        />
+        <meta name="keyword" content="Digital Marketing, Web Development" />
+      </Helmet>
       <div className="backend_banner">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className='backend_title'>BackEnd Development</h1>
+              <h1 className="backend_title">BackEnd Development</h1>
             </div>
           </div>
         </div>

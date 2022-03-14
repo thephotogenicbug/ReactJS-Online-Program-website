@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
 import axios from "axios";
+import { Helmet } from "react-helmet";
 const ContactForm = () => {
   const [name, processName] = useState("");
   const [mobile, processMobile] = useState("");
@@ -62,6 +63,18 @@ const ContactForm = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+           Application Form
+        </title>
+        <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
+        <meta
+          name="description"
+          content="Digital Marketing and Web Development Training In Bangalore"
+        />
+        <meta name="keyword" content="Digital Marketing, Web Development" />
+      </Helmet>
       <div className="backend_banner">
         <div className="container">
           <div className="row">

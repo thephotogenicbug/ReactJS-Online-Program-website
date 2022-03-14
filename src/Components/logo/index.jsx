@@ -7,8 +7,8 @@ const LogoWrapper = styled.div`
 `;
 
 const LogoImg = styled.div`
-  width: 29px;
-  height: 29px;
+  width: 150px;
+  height: 150px;
   img {
     width: 100%;
     height: 100%;
@@ -27,9 +27,13 @@ export function Logo(props) {
   return (
     <LogoWrapper>
       <LogoImg>
-        {/* <img src={GreenlandLogoImg} alt="Greenland logo" /> */}
+        <img
+          src="https://eduprov.com/images/eduprov_logo_color.png"
+          alt="Greenland logo"
+          className="Logo"
+        />
       </LogoImg>
-      <LogoText>Greenland</LogoText>
+      {/* <LogoText className="text-white">EDUPROV BOOTCAMP</LogoText> */}
     </LogoWrapper>
   );
 }

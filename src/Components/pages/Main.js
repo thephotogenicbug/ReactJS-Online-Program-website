@@ -3,9 +3,19 @@ import Contact from './Contact';
 import Footer from './Footer';
 import './Main.css'
 import Services from './Services';
+import { Helmet } from "react-helmet";
 const Main = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Digital Marketing and Web Development Training In Bangalore
+        </title>
+        <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
+        <meta name="description" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta name="keyword" content="Digital Marketing, Web Development" />
+      </Helmet>
       <div className="section banner_section">
         <div className="container">
           <div className="row">
