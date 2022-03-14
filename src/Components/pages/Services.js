@@ -20,8 +20,9 @@ const Services = () => {
                   </div>
                   <h3 className="card_title">Digital Marketing</h3>
                   <p className="card_subtitle">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
+                    Digital marketing, also called online marketing, is the
+                    promotion of brands to connect with potential customers
+                    using the internet
                   </p>
                   <Link to="/">
                     <button className="card_button">LEARN MORE</button>
@@ -37,8 +38,9 @@ const Services = () => {
                   </div>
                   <h3 className="card_title">Front End Development</h3>
                   <p className="card_subtitle">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
+                    Front-end web development, also known as client-side
+                    development is the practice of producing HTML, CSS and
+                    JavaScript
                   </p>
                   <Link to="/frontend">
                     <button className="card_button">LEARN MORE</button>
@@ -54,8 +56,9 @@ const Services = () => {
                   </div>
                   <h3 className="card_title">Back End Development</h3>
                   <p className="card_subtitle">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
+                    Backend Development is also known as server-side
+                    development.It is everything that the users don’t see and
+                    contains behind-the-scenes
                   </p>
                   <Link to="/backend">
                     <button className="card_button">LEARN MORE</button>
@@ -73,8 +76,8 @@ const Services = () => {
                   </div>
                   <h3 className="card_title">JavaScript Course Training</h3>
                   <p className="card_subtitle">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
+                    JavaScript is a scripting language that enables you to
+                    create dynamically updating content
                   </p>
                   <Link to="/">
                     <button className="card_button">LEARN MORE</button>
@@ -90,8 +93,8 @@ const Services = () => {
                   </div>
                   <h3 className="card_title">ReactJS Course Training</h3>
                   <p className="card_subtitle">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
+                    React. js is an open-source JavaScript library that is used
+                    for building user interfaces specifically
                   </p>
                   <Link to="/">
                     <button className="card_button">LEARN MORE</button>
@@ -107,8 +110,8 @@ const Services = () => {
                   </div>
                   <h3 className="card_title">MYSQL DB Training</h3>
                   <p className="card_subtitle">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry
+                    MySQL is the world's most popular open source database. With
+                    its proven performance
                   </p>
                   <Link to="/">
                     <button className="card_button">LEARN MORE</button>

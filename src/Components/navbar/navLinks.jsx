@@ -42,22 +42,22 @@ export function NavLinks(props) {
   return (
     <NavLinksContainer>
       <LinksWrapper>
-        <RouterLinks to="/">
+        <RouterLinks to="/" style={{ textDecoration: "none" }}>
           <LinkItem>
             <Link>HOME</Link>
           </LinkItem>
         </RouterLinks>
-        <RouterLinks to="/">
+        <RouterLinks to="/" style={{ textDecoration: "none" }}>
           <LinkItem>
             <Link href="#">PROGRAMS</Link>
           </LinkItem>
         </RouterLinks>
-        <RouterLinks to="/">
+        <RouterLinks to="/" style={{ textDecoration: "none" }}>
           <LinkItem>
             <Link>ABOUT US</Link>
           </LinkItem>
         </RouterLinks>
-        <RouterLinks to="/applicationform">
+        <RouterLinks to="/applicationform" style={{ textDecoration: "none" }}>
           <LinkItem>
             <Link>APPLICATION FORM</Link>
           </LinkItem>
