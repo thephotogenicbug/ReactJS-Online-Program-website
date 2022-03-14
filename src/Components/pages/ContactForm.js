@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Footer from "./Footer";
 import axios from "axios";
 import { Helmet } from "react-helmet";
+import './Main.css'
 const ContactForm = () => {
   const [name, processName] = useState("");
   const [mobile, processMobile] = useState("");
