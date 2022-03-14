@@ -13,7 +13,10 @@ const Main = () => {
           Digital Marketing and Web Development Training In Bangalore
         </title>
         <link rel="canonical" href="https://onlineskills-eduprov.vercel.app/" />
-        <meta name="description" content="Digital Marketing and Web Development Training In Bangalore" />
+        <meta
+          name="description"
+          content="Digital Marketing and Web Development Training In Bangalore"
+        />
         <meta name="keyword" content="Digital Marketing, Web Development" />
       </Helmet>
       <div className="section banner_section">
@@ -32,7 +35,9 @@ const Main = () => {
       </div>
       <Services />
       <Contact />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }
