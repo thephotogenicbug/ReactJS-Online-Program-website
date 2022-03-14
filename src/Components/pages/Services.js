@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -22,7 +23,9 @@ const Services = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry
                   </p>
-                  <button className="card_button">LEARN MORE</button>
+                  <Link to="/">
+                    <button className="card_button">LEARN MORE</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -37,7 +40,9 @@ const Services = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry
                   </p>
-                  <button className="card_button">LEARN MORE</button>
+                  <Link to="/frontend">
+                    <button className="card_button">LEARN MORE</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -52,7 +57,9 @@ const Services = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry
                   </p>
-                  <button className="card_button">LEARN MORE</button>
+                  <Link to="/backend">
+                    <button className="card_button">LEARN MORE</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,7 +76,9 @@ const Services = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry
                   </p>
-                  <button className="card_button">LEARN MORE</button>
+                  <Link to="/">
+                    <button className="card_button">LEARN MORE</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -84,7 +93,9 @@ const Services = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry
                   </p>
-                  <button className="card_button">LEARN MORE</button>
+                  <Link to="/">
+                    <button className="card_button">LEARN MORE</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -99,7 +110,9 @@ const Services = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry
                   </p>
-                  <button className="card_button">LEARN MORE</button>
+                  <Link to="/">
+                    <button className="card_button">LEARN MORE</button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './Contact';
+import Footer from './Footer';
 import './Main.css'
 import Services from './Services';
 const Main = () => {
@@ -14,13 +15,14 @@ const Main = () => {
                 <span style={{ color: "#A82010" }}>DIGITAL MARKETING</span> AND{" "}
                 <br /> <span style={{ color: "#A82010" }}>WEB DEVELOPMENT</span>
               </h1>
-               <button className='heading_button'>APPLY NOW</button>
+              <button className="heading_button">APPLY NOW</button>
             </div>
           </div>
         </div>
       </div>
       <Services />
       <Contact />
+      <Footer />
     </>
   );
 }

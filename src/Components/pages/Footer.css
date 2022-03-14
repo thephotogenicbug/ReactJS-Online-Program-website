@@ -1,0 +1,97 @@
+*,html{
+scroll-behavior: smooth;
+}
+*, *:after, *:before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+:root{
+scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
+scrollbar-width: thin !important;
+--white:#fff;
+--black:#131417;
+--primary:#5bc348;
+--primarylite:#53b141;
+--gray:#dd7f75d8;
+--dark:#ca3827;
+--darklite:#b9392b;
+--lite:#f8f9fa;
+}
+::-webkit-scrollbar {
+height: 12px;
+width: 8px;
+background: var(--dark);
+}
+::-webkit-scrollbar-thumb {
+background: #dd7f75d8;
+-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+background: var(--dark);
+}
+
+.footer{
+background-color:var(--dark);
+width:100%;
+display:flex;
+align-items:top;
+padding:5rem 0;
+}
+
+.footer section{
+padding:1rem 2rem;
+width:100%;
+vertical-align:top;
+}
+
+.footer section h3{
+color:var(--white);
+}
+
+.footer section a{
+color:var(--gray);
+display:flex;
+align-items:center;
+white-space:nowrap;
+margin:15px 0;
+}
+
+.footer section a:hover{
+color:var(--white);
+}
+
+.footer section:nth-child(2) a:before,.footer section:nth-child(3) a:before{
+content:"";
+font-family:"FontAwesome";
+margin-right:5px;
+color:var(--white);
+}
+
+.footer section a span{
+margin:0 10px;
+}
+
+.sub-footer{
+background-color:#b9392b;
+text-align:Center;
+color:var(--gray);
+padding:1rem 0;
+}
+
+@media (max-width:1020px){
+.footer{
+display:block;
+}
+.footer section{
+padding:1rem 1rem;
+}
+.footer section:nth-child(2), .footer section:nth-child(3){
+width:49%;
+display:inline-block;
+}
+}
+
+.footer_container{
+    margin-top: 960px;
+}
