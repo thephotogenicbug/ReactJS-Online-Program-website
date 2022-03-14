@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Accessibility } from "./accessibility";
 import { MenuToggle } from "./menuToggle";
+import { Link as Links } from "react-router-dom";
 
 const NavLinksContainer = styled.div`
   height: 100%;
@@ -54,15 +55,26 @@ export function MobileNavLinks(props) {
       <MenuToggle isOpen={isOpen} toggle={() => setOpen(!isOpen)} />
       {isOpen && (
         <LinksWrapper>
-          <LinkItem>
-            <Link href="#">HOME</Link>
-          </LinkItem>
-          <LinkItem>
-            <Link href="#">PROGRAMS</Link>
-          </LinkItem>
-          <LinkItem>
-            <Link href="#">ABOUT US</Link>
-          </LinkItem>
+          <Links to="/" style={{ textDecoration: "none" }}>
+            <LinkItem>
+              <Link>HOME</Link>
+            </LinkItem>
+          </Links>
+          <Links to="/" style={{ textDecoration: "none" }}>
+            <LinkItem>
+              <Link>PROGRAMS</Link>
+            </LinkItem>
+          </Links>
+          <Links to="/" style={{ textDecoration: "none" }}>
+            <LinkItem>
+              <Link >ABOUT US</Link>
+            </LinkItem>
+          </Links>
+          <Links to="/applicationform" style={{ textDecoration: "none" }}>
+            <LinkItem>
+              <Link>APPLICATION FORM</Link>
+            </LinkItem>
+          </Links>
           <Marginer />
           {/* <Accessibility /> */}
         </LinksWrapper>

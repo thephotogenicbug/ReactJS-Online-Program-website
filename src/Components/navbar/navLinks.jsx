@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link as RouterLinks } from "react-router-dom";
 
 const NavLinksContainer = styled.div`
   height: 100%;
@@ -41,15 +42,26 @@ export function NavLinks(props) {
   return (
     <NavLinksContainer>
       <LinksWrapper>
-        <LinkItem>
-          <Link href="#">HOME</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link href="#">PROGRAMS</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link href="#">ABOUT US</Link>
-        </LinkItem>
+        <RouterLinks to="/">
+          <LinkItem>
+            <Link>HOME</Link>
+          </LinkItem>
+        </RouterLinks>
+        <RouterLinks to="/">
+          <LinkItem>
+            <Link href="#">PROGRAMS</Link>
+          </LinkItem>
+        </RouterLinks>
+        <RouterLinks to="/">
+          <LinkItem>
+            <Link>ABOUT US</Link>
+          </LinkItem>
+        </RouterLinks>
+        <RouterLinks to="/applicationform">
+          <LinkItem>
+            <Link>APPLICATION FORM</Link>
+          </LinkItem>
+        </RouterLinks>
       </LinksWrapper>
     </NavLinksContainer>
   );
