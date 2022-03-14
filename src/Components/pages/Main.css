@@ -257,3 +257,12 @@
   margin-top: 200px;
   color: #ffffff;
 }
+.contact_form_button{
+  height: 40px;
+  width: 130px;
+  border-style: none;
+  background-color: #a82010;
+  color: #ffffff;
+  position: relative;
+  left: 20px;
+}

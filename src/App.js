@@ -5,6 +5,7 @@ import Main from "./Components/pages/Main";
 import { Navbar } from "./Components/navbar/index";
 import FrontendBlog from "./Components/pages/Frontend_Blog";
 import BackendBlog from "./Components/pages/Backend_Blog";
+import ContactForm from "./Components/pages/ContactForm";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Main />} />
         <Route exact path="/frontend" element={<FrontendBlog />} />
         <Route exact path="/backend" element={<BackendBlog />} />
+        <Route exact path="/applicationform" element={<ContactForm />} />
       </Routes>
     </Router>
   );
